@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tranfers",
+      "handler": "tranfers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tranfers/count",
+      "handler": "tranfers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tranfers/:id",
+      "handler": "tranfers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tranfers",
+      "handler": "tranfers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tranfers/:id",
+      "handler": "tranfers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tranfers/:id",
+      "handler": "tranfers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

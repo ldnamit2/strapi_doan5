@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "interface_apps",
+  "info": {
+    "name": "interface_app",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "interface": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interface-app.interface"
+    }
+  }
+}

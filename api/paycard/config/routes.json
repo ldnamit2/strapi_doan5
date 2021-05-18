@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/paycard",
+      "handler": "paycard.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/paycard",
+      "handler": "paycard.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/paycard",
+      "handler": "paycard.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
